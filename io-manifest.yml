@@ -1,0 +1,18 @@
+---
+buildbreaker:
+- activityname: "sast"
+  status:
+  - "new"
+  - "open"
+  overallseverity:
+  - "high"
+  - "critical"
+- activityname: "sca"
+  status:
+  - "new"
+  - "open"
+  overallseverity:
+  - "high"
+  - "critical"
+- activityname: "codedx"
+  min_risk_score: 80
